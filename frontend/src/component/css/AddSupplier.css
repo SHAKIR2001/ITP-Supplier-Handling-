@@ -1,0 +1,30 @@
+.add-supplier-container {
+    max-width: 700px;
+    margin: auto;
+    background-color: #f0f7f4; /* Soft light green */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid #d5e5db; /* Light border for subtle depth */
+}
+
+.add-supplier-container h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #065535; /* Darker green for emphasis */
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #89c9a3; /* Accent color */
+}
+
+.btn-info {
+    background-color: #00d9d8 !important;
+}
+
+.btn-danger {
+    background-color: #ff4c4c !important;
+}
+
+.text-danger {
+    margin-top: 5px;
+}

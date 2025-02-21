@@ -1,0 +1,48 @@
+/* General container styling with light green background */
+.payment-list-container {
+    background-color: #d4f7d0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling the download button */
+  .download-btn {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table styling for payment details */
+  .payment-table {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .payment-table th, 
+  .payment-table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+  }
+  
+  .payment-table thead th {
+    background-color: #00d9d8;
+    color: #fff;
+  }
+  
+  .payment-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .payment-table tbody tr:hover {
+    background-color: #e0ffe0;
+  }
+  

@@ -1,0 +1,77 @@
+.add-payment-container {
+    max-width: 500px; /* Reduced width */
+    margin: auto;
+    background-color: #f0f7f4; /* Soft light green */
+    padding: 20px; /* Reduced padding */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid #d5e5db; /* Light border for subtle depth */
+}
+
+.add-payment-container h2 {
+    font-size: 28px; /* Slightly smaller font size */
+    font-weight: bold;
+    color: #065535; /* Darker green for emphasis */
+    text-align: center;
+    padding-bottom: 10px; /* Reduced padding */
+    border-bottom: 2px solid #89c9a3; /* Accent color */
+}
+
+.payment-form label {
+    color: #333;
+    font-size: 14px; /* Smaller font size */
+    font-weight: 600;
+}
+
+.payment-form input, 
+.payment-form select {
+    padding: 10px; /* Reduced padding */
+    border-radius: 8px;
+    border: 1px solid #d0d0d0;
+    margin-bottom: 10px; /* Reduced margin */
+    width: 100%;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.payment-form input:focus, 
+.payment-form select:focus {
+    border-color: #065535; /* Dark green */
+    box-shadow: 0 0 5px rgba(6, 85, 53, 0.4);
+}
+
+.payment-form button {
+    font-size: 16px; /* Smaller font size */
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px; /* Reduced padding */
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.payment-form button:hover {
+    background-color: #045d45; /* Darker hover effect */
+}
+
+.payment-form .btn-info {
+    background-color: #3fa379; /* Greenish-blue button */
+    color: white;
+}
+
+.payment-form .btn-danger {
+    background-color: #ff6f61; /* Soft red button */
+    color: white;
+}
+
+button[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.payment-form .alert {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.payment-form .spinner-border {
+    margin-top: 10px;
+}
