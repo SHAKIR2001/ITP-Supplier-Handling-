@@ -1,0 +1,67 @@
+/* Light green theme */
+body {
+    background-color: #e0f5d8;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .suppliers-container {
+    padding: 20px;
+    margin: auto;
+    max-width: 90%;
+    background-color: #f8fff2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #2e7d32;
+  }
+  
+  .table-custom {
+    background-color: #ffffff;
+    border-color: #8bc34a;
+  }
+  
+  .table-custom th, .table-custom td {
+    vertical-align: middle;
+    border-color: #8bc34a;
+    color: #2e7d32;
+  }
+  
+  .search-box {
+    border-color: #8bc34a;
+    border-radius: 5px;
+  }
+  
+  .btn-custom {
+    background-color: #81c784;
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-custom:hover {
+    background-color: #66bb6a;
+  }
+  
+  .input-custom {
+    border-color: #8bc34a;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .modal-content {
+    background-color: #e8f5e9;
+  }
+  
+  .modal-header {
+    background-color: #81c784;
+    color: white;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+    border: none;
+  }
+  
